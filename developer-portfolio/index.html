@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Leon Glaser</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>LEON GLASER</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/codeGraphic.png"
+        alt="codeLabels"
+        loading="loading"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          I’m a creator who has branched from media production and writing into
+          software development, and is constantly pursuing new challenges.
+          Whether it’s with an application or a story (in whatever form they can
+          take), I’m motivated by impacting people’s lives in a meaningful way.
+          I can identify my role in a team and adapt to fill it.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Resume Highlights</h2>
+      <p>
+        Completed General Assembly's Software Engineering Immersive bootcamp
+        program in 2022
+      </p>
+      <p>
+        Received training in various technologies, including JavaScript, React,
+        and SQL among many others
+      </p>
+      <p>Published writer of short fiction and graphic novels</p>
+      <a
+        href="https://docs.google.com/document/d/1E9PnXhI2mrDKc_BSiLbsvPURXkpbpVPl9X_eGIfGjc4/edit"
+        target="_blank"
+        >Full resume</a
+      >
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Technologies</h2>
+      <div class="first-set animate__animated animate__pulse">
+        <img
+          src="assets/icons/icons8-html-5.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-css3.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-javascript.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+      <div class="second-set animate__animated animate__pulse">
+        <img
+          src="assets/icons/icons8-vue-js.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-react-native.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-git.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Project Highlights</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/mille-bornes-solitaire.png"
+            alt="mille-bornes-solitaire"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Mille Bornes Solitaire</h3>
+          <p class="project-details">
+            A single-player adaptation of a classic card game, created in one
+            week using JavaScript, HTML and CSS.
+          </p>
+          <a
+            href="https://millebornessolitaire.surge.sh/"
+            target="_blank"
+            class="project-link"
+            >Live Version</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/attic_comic_organizer.png"
+            alt="attic_comic_organizer"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Attic - Comic Book Organizer</h3>
+          <p class="project-details">
+            An app to track one's personal comic book collection, built in one
+            week using JavaScript, React and MongoDB.
+          </p>
+          <a
+            href="https://attic-comic-book-organizer.herokuapp.com/"
+            target="_blank"
+            class="project-link"
+            >Live Version</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/kohi-coffee-market.png"
+            alt="kohi-coffee-market"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Kohi - Coffee Marketplace</h3>
+          <p class="project-details">
+            A marketplace app to buy and sell independently produced coffee
+            blends, built in one week using JavaScript, React and PostgreSQL.
+          </p>
+          <a
+            href="https://protected-escarpment-45651.herokuapp.com/"
+            target="_blank"
+            class="project-link"
+            >Live Version</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Contact Information</h2>
+      <div class="contact-form-container">
+        <form action="https://formspree.io/f/meqdggek" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Email address"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Your message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Contact me"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </section>
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/leon-glaser/" target="_blank">
+        <img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="LinkedIn"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+      <a href="https://github.com/lnglaser" target="_blank">
+        <img
+          src="assets/icons/icons8-github.gif"
+          alt="'GitHub"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+    </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+      />
+    </i>
+    <!-- Footer section -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
